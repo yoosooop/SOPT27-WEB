@@ -2,10 +2,13 @@
 <html>
     <head>
         <link rel = "stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <title>Carousel slider</title>
     </head>
     <body>
         <div class = "carousel-container">
+            <i class="fas fa-arrow-left" id="prevBtn"></i>
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
             <div class = "carousel-slide">
                 <img src = "img/img5.jpeg" id = "last" alt = "">
                 <img src = "img/img1.jpeg" alt = "">
@@ -15,10 +18,7 @@
                 <img src = "img/img5.jpeg" alt = "">
                 <img src = "img/img1.jpeg" id = "first" alt = "">
             </div>
-        </div>
-
-        <button id = "prevBtn">Prev</button>
-        <button id = "nextBtn">Next</button>
+        </div> 
 
         <script src = "script.js"></script>
     </body>

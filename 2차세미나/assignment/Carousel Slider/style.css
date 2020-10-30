@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-container{
+    width: 50%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.carousel-slide{
+    display: flex;
+    width : 100%;
+    height: 400px;
+}
+
+#prevBtn{
+    position: absolute;
+    top : 25%;
+    z-index:10;
+    left: 20%;
+    font-size: 30px;
+    color: black;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top : 25%;
+    z-index:10;
+    right: 20%;
+    font-size: 30px;
+    color:black;
+    cursor: pointer;
+}
